@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "waterproof_removal"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "additional_pipes2:waterproof_redstone_pipe"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:redstone_transport_pipe",
+    "count": 1
+  }
+}

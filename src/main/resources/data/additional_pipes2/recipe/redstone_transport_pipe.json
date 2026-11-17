@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "items_redstone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RgR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:redstone_transport_pipe",
+    "count": 8
+  }
+}

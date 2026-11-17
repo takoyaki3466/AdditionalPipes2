@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "waterproof_removal"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "additional_pipes2:waterproof_teleport_pipe"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:item_teleport_pipe",
+    "count": 1
+  }
+}

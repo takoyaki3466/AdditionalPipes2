@@ -1,0 +1,138 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_core"
+      }
+    },
+    {
+      "when": {
+        "down": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_arm",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_arm",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_arm"
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_arm",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_arm",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "east": "true",
+        "powered": "false"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_arm",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_core"
+      }
+    },
+    {
+      "when": {
+        "down": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_arm",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "up": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_arm",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "north": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_arm"
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_arm",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_arm",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "east": "true",
+        "powered": "true"
+      },
+      "apply": {
+        "model": "additional_pipes2:block/pipe/redstone_transport_pipe_powered_arm",
+        "y": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# プロジェクトの除外パス
+/.gradle/
+/build/
+/build/classes/java/gametest/
+/build/classes/java/main/
+/build/classes/java/test/

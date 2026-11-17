@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "waterproof_removal"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "re_buildcraft:stone_conductive_pipe"
+    }
+  },
+  "result": {
+    "id": "re_buildcraft:stone_transport_pipe",
+    "count": 1
+  }
+}

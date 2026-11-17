@@ -1,0 +1,29 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "advanced_wood"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " r ",
+    "WgW"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:advanced_wooden_transport_pipe",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "item_teleport"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "dgd"
+  ],
+  "key": {
+    "d": {
+      "item": "re_buildcraft:diamond_gear"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:item_teleport_pipe",
+    "count": 8
+  }
+}

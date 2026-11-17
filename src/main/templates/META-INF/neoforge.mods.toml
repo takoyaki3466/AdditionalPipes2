@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+credits = "Original Additional Pipes 3.1.0 for Minecraft 1.2.5 (buildcraft-client-DA-additionalpipes-3.1.0) and AdditionalPipesFix 1.0. Original authors are not named in the archives; see NOTICE.md."
+authors = "${mod_authors}"
+description = '''${mod_description}'''
+
+[[dependencies."${mod_id}"]]
+modId = "neoforge"
+type = "required"
+versionRange = "${neo_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."${mod_id}"]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+# 旧版の getPriorities() = "after:mod_BuildCraftTransport" に相当する。
+[[dependencies."${mod_id}"]]
+modId = "re_buildcraft"
+type = "required"
+versionRange = "${rebuildcraft_version_range}"
+ordering = "AFTER"
+side = "BOTH"

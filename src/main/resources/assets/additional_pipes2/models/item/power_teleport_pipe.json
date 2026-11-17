@@ -1,0 +1,6 @@
+{
+  "parent": "re_buildcraft:block/pipe/item_pipe_core",
+  "textures": {
+    "pipe": "additional_pipes2:block/pipe/power_teleport_pipe"
+  }
+}

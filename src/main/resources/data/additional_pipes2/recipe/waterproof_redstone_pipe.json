@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "liquids_redstone"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "w",
+    "P"
+  ],
+  "key": {
+    "w": {
+      "item": "re_buildcraft:pipe_waterproof"
+    },
+    "P": {
+      "item": "additional_pipes2:redstone_transport_pipe"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:waterproof_redstone_pipe",
+    "count": 1
+  }
+}

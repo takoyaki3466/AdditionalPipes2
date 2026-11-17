@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "additional_pipes2:feature_enabled",
+      "feature": "power_teleport"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "r",
+    "P"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "additional_pipes2:item_teleport_pipe"
+    }
+  },
+  "result": {
+    "id": "additional_pipes2:power_teleport_pipe",
+    "count": 1
+  }
+}

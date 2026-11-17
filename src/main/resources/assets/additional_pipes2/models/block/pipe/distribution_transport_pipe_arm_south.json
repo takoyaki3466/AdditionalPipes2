@@ -1,0 +1,6 @@
+{
+  "parent": "re_buildcraft:block/pipe_arm",
+  "textures": {
+    "pipe": "additional_pipes2:block/pipe/distribution_transport_pipe_3"
+  }
+}

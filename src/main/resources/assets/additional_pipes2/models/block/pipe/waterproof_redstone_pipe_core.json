@@ -1,0 +1,6 @@
+{
+  "parent": "re_buildcraft:block/pipe_core",
+  "textures": {
+    "pipe": "additional_pipes2:block/pipe/waterproof_redstone_pipe"
+  }
+}
